@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_chat/components/chat_bubble.dart';
 import 'package:flutter_chat/components/my_text_field.dart';
 import 'package:flutter_chat/services/chat/chat_service.dart';
+import 'package:flutter_chat/draw/drawing_page.dart';
 
 class ChatPage extends StatefulWidget {
   final String receiverUserEmail;
@@ -48,6 +49,16 @@ class _ChatPageState extends State<ChatPage> {
             _buildMessageInput(),
 
             const SizedBox(height: 25),
+            ElevatedButton(
+              onPressed: () {
+                // Naviguer vers la page test
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const DrawingPage()),
+                );
+              },
+              child: const Text('Jouer'),
+            ),
           ],
         ),
     );
