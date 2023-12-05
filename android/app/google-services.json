@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "776969799818",
+    "project_id": "chatapptute-25aa3",
+    "storage_bucket": "chatapptute-25aa3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776969799818:android:53ad34c8abab7f68cb0573",
+        "android_client_info": {
+          "package_name": "com.etna.flutter_chat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGjZSWZNqJ4J1qbgkQgLGICZ6_a0HcSPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776969799818:android:e443cc29c5d82b42cb0573",
+        "android_client_info": {
+          "package_name": "com.example.messageapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGjZSWZNqJ4J1qbgkQgLGICZ6_a0HcSPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776969799818:android:89349cdde71ee95fcb0573",
+        "android_client_info": {
+          "package_name": "com.messageapp.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGjZSWZNqJ4J1qbgkQgLGICZ6_a0HcSPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
