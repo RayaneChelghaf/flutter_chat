@@ -70,7 +70,7 @@ class _RegisterPageState extends State<RegisterPage> {
 
                 // create account message
                 const Text(
-                  "Let's create an account for you.",
+                  "Création de compte",
                   style: TextStyle(
                     fontSize: 16,
                   ),
@@ -90,7 +90,7 @@ class _RegisterPageState extends State<RegisterPage> {
                 // password text field
                 MyTextField(
                   controller: passwordController,
-                  hintText: 'Password',
+                  hintText: 'Mot de passe',
                   obscureText: true,
                 ),
 
@@ -99,14 +99,14 @@ class _RegisterPageState extends State<RegisterPage> {
                 // confirm password text field
                 MyTextField(
                   controller: confirmPasswordController,
-                  hintText: 'Confirm password',
+                  hintText: 'Confirmer le mot de passe',
                   obscureText: true,
                 ),
 
                 const SizedBox(height: 25),
 
                 // sign up button
-                MyButton(onTap: signUp, text: "Sign Up"),
+                MyButton(onTap: signUp, text: "Inscription"),
 
                 const SizedBox(height: 50),
 
@@ -114,12 +114,12 @@ class _RegisterPageState extends State<RegisterPage> {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    const Text('Already a member?'),
+                    const Text('Déjà un compte ?'),
                     const SizedBox(width: 4),
                     GestureDetector(
                       onTap: widget.onTap,
                       child: const Text(
-                        'Login now',
+                        'Connexion',
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                         ),

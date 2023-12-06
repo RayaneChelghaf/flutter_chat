@@ -40,11 +40,6 @@ class DrawingPage extends HookWidget {
     }
 
     final timerStream = Stream.periodic(const Duration(seconds: 1), (count) {
-      // if (timerValueNotifier.value > 0) {
-      //   timerValueNotifier.value--;
-      // } else {
-      // getRandomWord();
-      // }
     });
     useEffect(() {
         getRandomWord();

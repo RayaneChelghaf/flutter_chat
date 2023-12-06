@@ -58,18 +58,14 @@ class _LoginPageState extends State<LoginPage> {
           ),
 
           const SizedBox(height: 50),
-
-
-          // welcome back message
           const Text(
-            "Welcome back, you've been missed.",
+            "Bon retour parmi nous !",
              style: TextStyle(
                fontSize: 16,
             ),
           ),
 
           const SizedBox(height: 25),
-          //email text field
           MyTextField(
             controller: emailController,
             hintText: 'Email',
@@ -81,26 +77,26 @@ class _LoginPageState extends State<LoginPage> {
           // password textfield
           MyTextField(
             controller: passwordController,
-            hintText: 'Password',
+            hintText: 'Mot de passe',
             obscureText: true,
           ),
 
           const SizedBox(height: 25),
 
             // sign in button
-            MyButton(onTap: signIn, text: "Sign In"),
+            MyButton(onTap: signIn, text: "Inscription"),
 
             const SizedBox( height: 50),
           // not a member? register now
       Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          const Text('Not a member?'),
+          const Text('Pas encore de compte ?'),
           const SizedBox(width: 4),
           GestureDetector(
             onTap: widget.onTap,
             child: const Text(
-              'Register now',
+              'Inscrivez vous',
               style: TextStyle(
                 fontWeight: FontWeight.bold,
               ),
